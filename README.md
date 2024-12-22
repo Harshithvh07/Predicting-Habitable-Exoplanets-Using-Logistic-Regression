@@ -7,7 +7,7 @@ This project applies Logistic Regression to classify the exoplanets are habitabl
 The data set used in this project is from NASA's Exoplanet archive [Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/)
 
 ## Methodology 
-The data was loaded and clean , removed unwanted features and replaced missing values with mean of respective column. Logistic Regression model was chosen for classification task. The data was split into 70% training and 30% test. The model was evaluated based on accuracy , mean squared error , mean absolute error and R-squared. 
+The data was loaded and clean , removed unwanted features and replaced missing values with mean of respective column. Logistic Regression model was chosen for classification task. The data was split into 70% training and 30% test. The model was evaluated based on accuracy. 
 
 ## Results 
 The model achieved an accuracy of 0.9564220183486238 on the test set, indicating how well the model is classifying planets as habitable or not. 
